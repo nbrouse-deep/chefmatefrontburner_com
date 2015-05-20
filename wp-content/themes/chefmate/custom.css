@@ -1,0 +1,8 @@
+/* UNCOMMENT THIS TO SWAP THE MENU AND LOGO POSITIONS AROUND *//*
+#header.navbar .brand {
+	float: right;
+}
+#header.navbar-fixed-top .nav-collapse.pull-right, #header .responsive-menu.pull-right {
+	float: left;
+}
+*/

@@ -1,0 +1,2442 @@
+@charset "UTF-8";
+/*! normalize.css v1.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0; }
+
+/**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 40px; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0; }
+
+/**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none; }
+
+/**
+ * Address `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */ }
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */ }
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'DesyrelRegular';
+  src: url("../fonts/desyrel-webfont.eot");
+  src: url("../fonts/desyrel-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/desyrel-webfont.woff") format("woff"), url("../fonts/desyrel-webfont.ttf") format("truetype"), url("../fonts/desyrel-webfont.svg#DesyrelRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+sub {
+  font-size: 40%; }
+
+a {
+  color: #301d14;
+  text-decoration: none; }
+
+p {
+  margin: 0 0 15px 0; }
+
+h1,
+h2 {
+  font: 700 58px/1.1 "yanone kaffeesatz", sans-serif;
+  letter-spacing: -1px;
+  margin: 0;
+  text-transform: uppercase; }
+
+nav > ul {
+  margin: 0;
+  padding: 0; }
+
+hr {
+  background: #999;
+  border: none;
+  margin: 15px 0;
+  height: 1px; }
+
+.container {
+  margin: 0 auto;
+  width: 930px; }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.error {
+  color: #f66; }
+
+.header-image {
+  border-bottom: 15px solid #301d14;
+  display: block;
+  height: 260px; }
+
+.mobile-only {
+  display: none !important; }
+
+.tablet-only {
+  display: none; }
+
+.print-only {
+  display: none; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; }
+
+  header,
+  .sidebar,
+  .other-articles,
+  .back {
+    display: none !important; }
+
+  footer {
+    height: auto !important; }
+    footer .center {
+      display: none !important; }
+    footer a {
+      float: left;
+      position: static !important;
+      margin: 0 20px 0 !important; }
+
+  .content {
+    margin: 0 auto; }
+
+  * {
+    border: none !important; }
+
+  .print-only {
+    display: block; } }
+html, body {
+  height: 100%;
+  min-height: 100%; }
+
+body {
+  background: #301d14;
+  font: 13px/1.4 arial, sans-serif; }
+
+#top {
+  position: relative; }
+
+header {
+  background: #37241b url(../img/woodgrain.jpg) no-repeat center center;
+  position: relative;
+  z-index: 2; }
+  header .container {
+    color: white;
+    font-size: 11px;
+    height: 71px;
+    position: relative; }
+  header a {
+    color: white; }
+  header .logo {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    background: url(../img/logo.png);
+    height: 108px;
+    left: 20px;
+    position: absolute;
+    top: 10px;
+    width: 120px; }
+  header nav {
+    float: left;
+    left: 150px;
+    position: relative;
+    top: 36px; }
+    header nav ul li {
+      float: left;
+      position: relative; }
+      header nav ul li > a {
+        display: block;
+        padding: 10px;
+        text-transform: uppercase; }
+      header nav ul li:hover > a, header nav ul li.active > a {
+        background: black; }
+      header nav ul li:hover .dropdown, header nav ul li.active .dropdown {
+        display: block; }
+      header nav ul li .dropdown {
+        background: #301d14;
+        display: none;
+        font-size: 12px;
+        padding: 20px 10px 0 10px;
+        position: absolute;
+        width: 180px; }
+        header nav ul li .dropdown a {
+          background-color: transparent;
+          border: 0;
+          color: transparent;
+          display: block;
+          font: 0/0 a;
+          text-shadow: none;
+          background: url(../img/buttons/lets-talk.png);
+          height: 26px;
+          margin: 5px auto;
+          width: 78px; }
+  header .nestle-link {
+    font-size: 9px;
+    position: absolute;
+    right: 40px;
+    top: 20px; }
+  header .search {
+    float: right;
+    margin: 45px 20px 0 0; }
+    header .search input[type=text] {
+      border: none;
+      float: left;
+      font-size: 10px;
+      height: 17px;
+      margin: 0 2px 0 0;
+      padding: 0 2px;
+      position: relative;
+      top: 1px; }
+    header .search input[type=submit] {
+      background-color: transparent;
+      border: 0;
+      color: transparent;
+      display: block;
+      font: 0/0 a;
+      text-shadow: none;
+      background: url(../img/buttons/go.png);
+      border: none;
+      float: left;
+      height: 20px;
+      width: 22px; }
+
+footer {
+  background: url(../img/cardboard-gradient.jpg) repeat-y center center;
+  border-top: 15px solid #301d14;
+  color: white;
+  height: 80px;
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+  z-index: 3; }
+  footer a {
+    color: white; }
+  footer .container {
+    position: relative; }
+  footer .center {
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    text-indent: 50px;
+    width: 530px; }
+    footer .center a {
+      text-decoration: underline; }
+    footer .center nav,
+    footer .center small {
+      font-size: 8px; }
+    footer .center nav {
+      text-transform: uppercase; }
+      footer .center nav li {
+        display: inline; }
+        footer .center nav li:before {
+          content: " | ";
+          padding: 0 5px; }
+        footer .center nav li:first-child:before {
+          display: none; }
+        footer .center nav li a {
+          text-decoration: none; }
+        footer .center nav li .dropdown {
+          display: none; }
+  footer .chefmate-logo {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    background: url(../img/chefmate-logo.png);
+    height: 42px;
+    left: 10px;
+    margin: 0 0 0 20px;
+    position: absolute;
+    top: 15px;
+    width: 203px; }
+  footer .np-logo {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    background: url(../img/nestle-logo.png);
+    height: 58px;
+    margin: 0 20px 0 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 131px; }
+
+.main {
+  border-top: 15px solid #301d14;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
+  .main .content {
+    background: white;
+    border-right: 15px solid #301d14;
+    float: left;
+    min-height: 810px;
+    width: 660px; }
+    .main .content h1 {
+      color: #301d14;
+      margin: 0 0 15px 0; }
+    .main .content .intro {
+      padding: 40px 20px 10px 20px;
+      font-size: 13px; }
+  .main .sidebar {
+    float: right;
+    width: 255px; }
+    .main .sidebar .call-to-action {
+      border-bottom: 15px solid #301d14; }
+      .main .sidebar .call-to-action img {
+        display: block; }
+    .main .sidebar .partners {
+      background: #ede5cb;
+      bottom: 0;
+      color: #301d14;
+      font-size: 14px;
+      line-height: 1.2;
+      padding: 20px 25px 0 25px;
+      position: absolute;
+      right: 0px;
+      text-align: center;
+      width: 205px; }
+      .main .sidebar .partners .intro {
+        margin: 0 0 15px 0; }
+      .main .sidebar .partners .partner {
+        border-top: 1px solid #aaa;
+        padding: 15px 0; }
+
+#lightbox {
+  background: rgba(0, 0, 0, 0.75);
+  display: none;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100; }
+  #lightbox .welcome {
+    border: 4px double black;
+    color: white;
+    display: none;
+    margin: 0 auto;
+    outline: 2px solid black;
+    position: relative;
+    top: 150px;
+    width: 500px; }
+    #lightbox .welcome > div {
+      background: black;
+      padding: 25px 30px; }
+    #lightbox .welcome h1 {
+      font: 400 23px/1.1 'arial narrow', arial, sans-serif;
+      letter-spacing: 0px;
+      margin: 0 0 15px 0;
+      text-transform: none; }
+    #lightbox .welcome p {
+      font: 100 20px/1.2 'arial narrow', arial, sans-serif;
+      -webkit-font-smoothing: antialiased; }
+    #lightbox .welcome button {
+      background-color: transparent;
+      border: 0;
+      color: transparent;
+      display: block;
+      font: 0/0 a;
+      text-shadow: none;
+      background: url(../img/buttons/get-started.png);
+      height: 41px;
+      margin: 20px auto 0;
+      width: 146px; }
+  #lightbox .product-info {
+    border: 4px double #301d14;
+    color: white;
+    margin: 0 auto;
+    outline: 2px solid #301d14;
+    position: relative;
+    top: 150px;
+    width: 500px; }
+    #lightbox .product-info > div {
+      background: #301d14;
+      overflow: hidden; }
+    #lightbox .product-info button {
+      background-color: transparent;
+      border: 0;
+      color: transparent;
+      display: block;
+      font: 0/0 a;
+      text-shadow: none;
+      background: url(../img/x-small.png) no-repeat center center;
+      border: none;
+      height: 25px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 25px; }
+    #lightbox .product-info img {
+      display: block;
+      float: left;
+      margin: 30px 15px; }
+    #lightbox .product-info h4 {
+      font: 400 26px/1.1 'yanone kaffeesatz', sans-serif;
+      letter-spacing: 1px;
+      margin: 20px 0 10px 0;
+      text-transform: uppercase; }
+      #lightbox .product-info h4:first-line {
+        font-size: 30px; }
+    #lightbox .product-info p {
+      font-size: 17px; }
+    #lightbox .product-info a {
+      color: white;
+      text-decoration: underline; }
+      #lightbox .product-info a:after {
+        content: " >"; }
+    #lightbox .product-info .right {
+      float: right;
+      padding: 0 30px 0 0;
+      width: 300px; }
+  #lightbox .thank-you {
+    border: 4px double #301d14;
+    margin: 200px auto;
+    position: relative;
+    width: 395px; }
+    #lightbox .thank-you p {
+      background: #301d14;
+      color: white;
+      font-size: 15px;
+      margin: 0;
+      padding: 30px 40px;
+      text-align: center; }
+    #lightbox .thank-you button {
+      background-color: transparent;
+      border: 0;
+      color: transparent;
+      display: block;
+      font: 0/0 a;
+      text-shadow: none;
+      background: url(../img/x-small.png) no-repeat center center;
+      border: none;
+      height: 25px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 25px; }
+
+.teaser {
+  border-top: 15px solid #301d14;
+  color: #1a1a1a;
+  height: 220px;
+  padding: 20px;
+  position: relative; }
+  .teaser .headline,
+  .teaser .summary,
+  .teaser .read-more {
+    position: absolute; }
+  .teaser a {
+    color: black; }
+  .teaser .headline {
+    bottom: 88px;
+    position: absolute; }
+    .teaser .headline h2 {
+      line-height: 1.2;
+      letter-spacing: 0px;
+      width: 560px; }
+      .teaser .headline h2 a {
+        background: url(../img/beige-60.png); }
+  .teaser .summary {
+    bottom: 0px; }
+    .teaser .summary p {
+      font-size: 12px;
+      line-height: 1.7;
+      margin: 0 0 2px 0;
+      width: 400px; }
+    .teaser .summary span,
+    .teaser .summary .see-all a {
+      background: url(../img/beige-60.png);
+      padding: 3px; }
+    .teaser .summary .keep-reading {
+      font-weight: bold; }
+      .teaser .summary .keep-reading:after {
+        content: " >"; }
+    .teaser .summary .see-all {
+      text-transform: uppercase; }
+      .teaser .summary .see-all a:after {
+        content: " >"; }
+  .teaser .read-more {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #301d14;
+    color: #f3ebd1;
+    display: block;
+    font: 400 14px/1.2 "yanone kaffeesatz", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    right: 30px;
+    top: 0px; }
+    .teaser .read-more:after {
+      content: " >"; }
+
+.detail .copy {
+  padding: 20px;
+  position: relative; }
+  .detail .copy .back {
+    display: block;
+    text-transform: uppercase; }
+    .detail .copy .back:before {
+      content: "< "; }
+  .detail .copy .body {
+    width: 530px; }
+    .detail .copy .body h2 {
+      font: 400 14px/1.3 arial, sans-serif; }
+  .detail .copy .byline {
+    line-height: 1.2; }
+    .detail .copy .byline .date {
+      font-size: 10px; }
+  .detail .copy .actions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+    .detail .copy .actions li {
+      float: left;
+      margin: 0 0 0 15px; }
+      .detail .copy .actions li a {
+        background-color: transparent;
+        border: 0;
+        color: transparent;
+        display: block;
+        font: 0/0 a;
+        text-shadow: none;
+        background: no-repeat left bottom;
+        height: 40px;
+        width: 30px; }
+    .detail .copy .actions .email {
+      background-image: url(../img/email.png); }
+    .detail .copy .actions .print {
+      background-image: url(../img/print.png); }
+  .detail .copy .ingredients {
+    background: #f4eddf;
+    margin: 0 -20px 20px -20px;
+    padding: 20px;
+    width: 620px; }
+    .detail .copy .ingredients table {
+      width: 100%; }
+      .detail .copy .ingredients table td {
+        padding: 0 15px 5px 0; }
+        .detail .copy .ingredients table td.first:before {
+          content: "- "; }
+  .detail .copy .procedure ul,
+  .detail .copy .procedure ol {
+    margin: 10px 0;
+    padding: 0 0 0 1.5em; }
+.detail .other-articles {
+  border-top: 2px solid #ccc;
+  margin: 20px;
+  padding: 20px 0 0 0; }
+  .detail .other-articles h2 {
+    font: 400 14px/1.5 arial, sans-serif;
+    margin: 0 0 20px 0; }
+  .detail .other-articles .related,
+  .detail .other-articles .nav {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0; }
+    .detail .other-articles .related li,
+    .detail .other-articles .nav li {
+      border-left: 1px solid #301d14;
+      float: right;
+      left: -1px;
+      position: relative; }
+      .detail .other-articles .related li:first-child,
+      .detail .other-articles .nav li:first-child {
+        border-left: none;
+        border-right: 1px solid #301d14;
+        float: left;
+        left: auto; }
+        .detail .other-articles .related li:first-child a,
+        .detail .other-articles .nav li:first-child a {
+          background: url(../img/arrow-left.png) no-repeat left center;
+          padding: 15px 20px 0 40px; }
+      .detail .other-articles .related li a,
+      .detail .other-articles .nav li a {
+        background: url(../img/arrow-right.png) no-repeat right center;
+        display: block;
+        height: 50px;
+        width: 249px;
+        padding: 15px 40px 0 20px;
+        text-transform: uppercase; }
+
+.home .content .menu-ideas article {
+  border-top: none; }
+
+.partners .main {
+  min-height: 0; }
+.partners .sidebar .partners {
+  display: none; }
+.partners .sidebar .call-to-action {
+  border-bottom: none; }
+.partners .content {
+  min-height: 354px;
+  padding: 0 0 125px 0; }
+  .partners .content .intro {
+    margin: 0 0 50px 0; }
+  .partners .content .partner {
+    border-left: 1px solid #301d14;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    width: 219px; }
+    .partners .content .partner:first-child {
+      border-left: none; }
+    .partners .content .partner img {
+      vertical-align: middle; }
+
+.about-us .content .intro {
+  padding: 20px; }
+.about-us .content .categories {
+  padding: 20px; }
+  .about-us .content .categories .category {
+    clear: both;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0; }
+    .about-us .content .categories .category h2 {
+      background: url(../img/arrow-right-small.png) no-repeat left center;
+      font: 400 14px/1.4 arial, sans-serif;
+      text-indent: 30px; }
+      .about-us .content .categories .category h2 a {
+        display: block; }
+    .about-us .content .categories .category.active h2 {
+      background-image: url(../img/arrow-down-small.png); }
+    .about-us .content .categories .category .products {
+      display: none;
+      padding: 0 0 0 20px; }
+      .about-us .content .categories .category .products .product {
+        float: left;
+        height: 80px;
+        margin: 20px 0;
+        width: 260px; }
+        .about-us .content .categories .category .products .product img {
+          display: block;
+          float: left; }
+        .about-us .content .categories .category .products .product > .right {
+          float: left;
+          margin: 0 0 0 10px;
+          width: 180px; }
+          .about-us .content .categories .category .products .product > .right button {
+            background-color: transparent;
+            border: 0;
+            color: transparent;
+            display: block;
+            font: 0/0 a;
+            text-shadow: none;
+            background: url(../img/plus.png);
+            border: none;
+            height: 20px;
+            width: 21px; }
+          .about-us .content .categories .category .products .product > .right h3 {
+            font: 700 18px/0.9 'yanone kaffeesatz', sans-serif;
+            margin: 10px 0 5px 0;
+            text-transform: uppercase; }
+            .about-us .content .categories .category .products .product > .right h3:first-line {
+              font-size: 22px; }
+        .about-us .content .categories .category .products .product .more-info {
+          display: none; }
+.about-us .content .que-bueno {
+  border: 1px solid #301d14;
+  color: #301d14;
+  display: none;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 12px 20px; }
+  .about-us .content .que-bueno img {
+    float: left;
+    margin-right: 5%; }
+  .about-us .content .que-bueno h3,
+  .about-us .content .que-bueno p {
+    float: left;
+    width: 50%; }
+  .about-us .content .que-bueno h3 {
+    font: bold 18px/1 "yanone kaffeesatz";
+    margin: 5px 0; }
+  .about-us .content .que-bueno p {
+    line-height: 1.2; }
+  .about-us .content .que-bueno a {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #301d14;
+    color: white;
+    display: block;
+    float: right;
+    font: 16px/36px "yanone kaffeesatz";
+    text-align: center;
+    text-transform: uppercase;
+    width: 20%; }
+.about-us .content .faqs {
+  clear: both;
+  display: block;
+  margin: 0 0 40px 20px;
+  text-decoration: underline; }
+
+.contest .sidebar .call-to-action {
+  display: none; }
+.contest .content .intro {
+  border-bottom: 15px solid #301d14;
+  padding-top: 20px;
+  position: relative; }
+  .contest .content .intro h2 {
+    font: 400 18px/1.4 arial, sans-serif;
+    letter-spacing: 0px; }
+  .contest .content .intro p {
+    width: 600px; }
+  .contest .content .intro ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 1em; }
+    .contest .content .intro ul li {
+      line-height: 1.8em;
+      position: relative; }
+      .contest .content .intro ul li:before {
+        content: "- ";
+        display: block;
+        position: absolute;
+        left: -8px;
+        top: 0px; }
+    .contest .content .intro ul ul {
+      padding: 0 0 0 2em; }
+  .contest .content .intro .go-to-form {
+    background: url(../img/plus.png) no-repeat right center;
+    display: block;
+    padding: 0 30px 0 0;
+    position: absolute;
+    right: 60px;
+    text-transform: uppercase;
+    top: 50px; }
+.contest .content #form {
+  background: #4f3f37;
+  color: white;
+  padding: 20px 70px;
+  -webkit-font-smoothing: antialiased; }
+  .contest .content #form h2 {
+    font: 400 18px/1.4 arial, sans-serif;
+    margin: 0 0 15px 0;
+    letter-spacing: 0px;
+    text-transform: none; }
+    .contest .content #form h2 .hint {
+      font-size: 12px; }
+  .contest .content #form div,
+  .contest .content #form label {
+    margin: 10px 0 0 0; }
+  .contest .content #form label {
+    display: block; }
+  .contest .content #form input[type=text],
+  .contest .content #form input[type=email],
+  .contest .content #form textarea {
+    border: 0;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 0 5px 0;
+    padding: 2px;
+    width: 400px; }
+  .contest .content #form input[type=submit] {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    background: url(../img/buttons/enter-competition.png);
+    border: none;
+    height: 58px;
+    margin: 40px auto 60px;
+    width: 275px; }
+  .contest .content #form .city {
+    float: left;
+    margin-left: 0;
+    width: 210px; }
+    .contest .content #form .city input {
+      width: 206px; }
+  .contest .content #form .state {
+    float: left;
+    margin-left: 10px;
+    width: 70px; }
+    .contest .content #form .state input {
+      width: 66px; }
+  .contest .content #form .zip {
+    float: left;
+    margin-left: 10px;
+    width: 104px; }
+    .contest .content #form .zip input {
+      width: 100px; }
+  .contest .content #form .operation-type {
+    clear: both; }
+  .contest .content #form .primary-buyer,
+  .contest .content #form .menu-contains,
+  .contest .content #form .current-purchaser,
+  .contest .content #form .current-purchaser-chefmate,
+  .contest .content #form .follow-up-call {
+    overflow: hidden; }
+    .contest .content #form .primary-buyer p,
+    .contest .content #form .menu-contains p,
+    .contest .content #form .current-purchaser p,
+    .contest .content #form .current-purchaser-chefmate p,
+    .contest .content #form .follow-up-call p {
+      margin-bottom: 0; }
+    .contest .content #form .primary-buyer label,
+    .contest .content #form .menu-contains label,
+    .contest .content #form .current-purchaser label,
+    .contest .content #form .current-purchaser-chefmate label,
+    .contest .content #form .follow-up-call label {
+      float: left;
+      width: 100px; }
+  .contest .content #form .ingredient-types p {
+    margin: 0 0 10px 0; }
+  .contest .content #form .ingredient-types label {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 200px; }
+  .contest .content #form .ingredient-types .other {
+    margin: 15px 0 10px 0;
+    clear: both; }
+  .contest .content #form .agree-to-terms {
+    margin: 40px 0 10px 0; }
+    .contest .content #form .agree-to-terms a {
+      color: white;
+      text-decoration: underline; }
+  .contest .content #form .privacy {
+    font-size: 9px; }
+  .contest .content #form .invalid input,
+  .contest .content #form .missing input {
+    background: white url(../img/exclamation.png) no-repeat right center; }
+  .contest .content #form .thank-you {
+    display: none; }
+
+.search .content .intro p {
+  font-size: 16px; }
+  .search .content .intro p .keywords {
+    font-weight: bold; }
+.search .content .results {
+  padding: 20px; }
+  .search .content .results h2 {
+    font: normal 24px/1.4 arial, sans-serif;
+    margin: 0 0 10px 0;
+    text-decoration: underline;
+    text-transform: none; }
+  .search .content .results h3 {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0; }
+  .search .content .results p a {
+    font-weight: bold; }
+    .search .content .results p a:after {
+      content: " >"; }
+
+.rules .content {
+  position: relative; }
+  .rules .content .copy {
+    padding: 60px 20px 10px 20px; }
+  .rules .content .print {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    background: url(../img/print.png) no-repeat left bottom;
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+
+.quebueno.landing .main {
+  background: #301d14 url(../img/queso-burger.jpg) no-repeat center top;
+  border-top: 0;
+  width: auto; }
+.quebueno.landing .sidebar {
+  display: none; }
+.quebueno.landing .content {
+  background: none;
+  border-right: 0;
+  float: none;
+  margin: 0 auto;
+  width: 930px; }
+.quebueno.landing .intro {
+  overflow: hidden;
+  padding-bottom: 16%; }
+  .quebueno.landing .intro > div {
+    background: url(../img/que-bueno-logo.png) no-repeat center top;
+    background-size: 100%;
+    clear: both;
+    float: right;
+    height: 0;
+    padding: 0 0 38.5% 0;
+    width: 33.76%; }
+    .quebueno.landing .intro > div > * {
+      display: none; }
+.quebueno.landing .tabs {
+  clear: both;
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: -50px;
+  padding: 0;
+  text-align: center; }
+  .quebueno.landing .tabs li {
+    display: inline-block; }
+    .quebueno.landing .tabs li:first-child {
+      margin-right: 10px; }
+  .quebueno.landing .tabs a {
+    -moz-border-radius: 7px 7px 0 0;
+    -webkit-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #301d14 url(../img/v.png) no-repeat right center;
+    color: white;
+    display: block;
+    font: 400 24px/50px 'yanone kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 0 45px 0 30px;
+    text-transform: uppercase; }
+.quebueno.landing .video {
+  background: #301d14;
+  clear: both;
+  color: white;
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  .quebueno.landing .video h2 {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px; }
+  .quebueno.landing .video .iframe {
+    float: right;
+    height: 315px;
+    width: 60.21%; }
+    .quebueno.landing .video .iframe iframe {
+      display: block;
+      height: 100%;
+      width: 100%; }
+  .quebueno.landing .video img {
+    float: left;
+    width: 40%; }
+  .quebueno.landing .video p {
+    float: right;
+    font-size: 14px;
+    width: 52%; }
+  .quebueno.landing .video .left {
+    float: left;
+    width: 38%; }
+    .quebueno.landing .video .left a {
+      color: white;
+      font-weight: 100; }
+      .quebueno.landing .video .left a:after {
+        content: " ›"; }
+.quebueno.landing .recipes {
+  background: #f4f4f4;
+  overflow: hidden;
+  padding: 30px; }
+  .quebueno.landing .recipes h2 {
+    color: #3a2618;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center; }
+    .quebueno.landing .recipes h2:after {
+      border-top: 1px solid #3a2618;
+      border-bottom: 1px solid #3a2618;
+      content: " ";
+      display: block;
+      height: 3px;
+      margin: 10px auto 0;
+      width: 20%; }
+  .quebueno.landing .recipes hr {
+    background: #3a2618;
+    clear: both;
+    margin: 30px 0; }
+.quebueno.landing .recipe {
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 6.2%;
+  width: 28.8%; }
+  .quebueno.landing .recipe.third {
+    margin-right: 0; }
+  .quebueno.landing .recipe h3 {
+    color: #3a2618;
+    font-size: 18px;
+    line-height: 1.1;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase; }
+  .quebueno.landing .recipe img {
+    width: 100%; }
+  .quebueno.landing .recipe .email {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+    background: url(../img/email2.png) no-repeat left center;
+    float: left;
+    height: 35px;
+    width: 35px; }
+  .quebueno.landing .recipe .download {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #f3ebd1 url(../img/pdf.png) no-repeat 15px center;
+    color: #3a2618;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 0 20px 0 50px; }
+  .quebueno.landing .recipe .recipe-url {
+    clear: both;
+    display: block;
+    padding-top: 20px; }
+
+.qb-unipro-contest header {
+  background: white; }
+  .qb-unipro-contest header .container {
+    height: 113px; }
+  .qb-unipro-contest header .logo {
+    background: url(../img/que-bueno-logo-small.png);
+    height: 80px;
+    width: 169px; }
+  .qb-unipro-contest header nav {
+    float: right;
+    left: 0;
+    top: 32px; }
+    .qb-unipro-contest header nav li {
+      margin-right: 20px; }
+      .qb-unipro-contest header nav li a {
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background: #301d14;
+        font: 24px/55px "yanone kaffeesatz";
+        letter-spacing: 1px;
+        padding: 0 25px; }
+      .qb-unipro-contest header nav li.active a {
+        background: #4d2e20; }
+.qb-unipro-contest .main {
+  background: #301d14 url(../img/queso-burger.jpg) no-repeat center top;
+  border-top: 0;
+  width: auto; }
+.qb-unipro-contest .sidebar {
+  display: none; }
+.qb-unipro-contest .content {
+  background: none;
+  border-right: 0;
+  float: none;
+  margin: 0 auto;
+  width: 930px; }
+.qb-unipro-contest .hero {
+  overflow: hidden;
+  height: 528px; }
+  .qb-unipro-contest .hero > div {
+    clear: both;
+    float: right;
+    position: relative;
+    top: 70px;
+    width: 33.76%; }
+    .qb-unipro-contest .hero > div h2 {
+      color: white;
+      font: bold 25px/1.3 arial, sans-serif;
+      letter-spacing: 1px;
+      padding-bottom: 20px;
+      position: relative;
+      text-align: center; }
+      .qb-unipro-contest .hero > div h2:after {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        bottom: 0;
+        content: " ";
+        height: 5px;
+        left: 10%;
+        position: absolute;
+        width: 80%; }
+      .qb-unipro-contest .hero > div h2 span {
+        font: bold 30px/1.3 "yanone kaffeesatz"; }
+    .qb-unipro-contest .hero > div p {
+      color: white;
+      font: bold 20px/1.3 arial, sans-serif;
+      margin: 10px 0 0 0;
+      text-align: center; }
+      .qb-unipro-contest .hero > div p a {
+        color: white;
+        text-decoration: underline; }
+.qb-unipro-contest footer {
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 30px; }
+  .qb-unipro-contest footer small {
+    line-height: 1.3; }
+  .qb-unipro-contest footer .legal {
+    list-style: none outside none;
+    margin: -10px 0 10px 0;
+    padding: 0;
+    text-align: center; }
+    .qb-unipro-contest footer .legal li {
+      display: inline-block;
+      text-indent: 0; }
+      .qb-unipro-contest footer .legal li a {
+        display: block;
+        line-height: 27px;
+        font-size: 10px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        .qb-unipro-contest footer .legal li a:after {
+          content: " | ";
+          padding: 0 10px; }
+      .qb-unipro-contest footer .legal li img {
+        display: block;
+        position: relative;
+        top: 10px; }
+
+.qb-unipro-contest.qbrecipe .intro {
+  color: white;
+  overflow: hidden;
+  padding: 45px 0 25px !important; }
+  .qb-unipro-contest.qbrecipe .intro h2 {
+    font: bold 22px/1.4 arial, sans-serif;
+    margin-bottom: 10px; }
+    .qb-unipro-contest.qbrecipe .intro h2 span {
+      font-style: italic; }
+    .qb-unipro-contest.qbrecipe .intro h2.earn-more {
+      font-size: 22px;
+      font-weight: normal;
+      letter-spacing: 0px;
+      margin: 10px 0;
+      text-transform: none; }
+  .qb-unipro-contest.qbrecipe .intro p {
+    font: bold 14px/1.2 arial, sans-serif; }
+  .qb-unipro-contest.qbrecipe .intro img {
+    float: right; }
+  .qb-unipro-contest.qbrecipe .intro .copy {
+    float: left;
+    width: 570px; }
+  .qb-unipro-contest.qbrecipe .intro .calls-to-action {
+    color: #f3ebd1; }
+    .qb-unipro-contest.qbrecipe .intro .calls-to-action a {
+      color: #f3ebd1;
+      text-decoration: underline; }
+    .qb-unipro-contest.qbrecipe .intro .calls-to-action p {
+      font-size: 18px;
+      font-weight: bold; }
+    .qb-unipro-contest.qbrecipe .intro .calls-to-action .more-info {
+      font-style: italic; }
+.qb-unipro-contest.qbrecipe .how-it-works,
+.qb-unipro-contest.qbrecipe .form,
+.qb-unipro-contest.qbrecipe .rules {
+  background: #f4f4f4;
+  color: #301d14;
+  padding: 50px 70px; }
+  .qb-unipro-contest.qbrecipe .how-it-works h3,
+  .qb-unipro-contest.qbrecipe .form h3,
+  .qb-unipro-contest.qbrecipe .rules h3 {
+    font: bold 18px/1.4 arial, sans-serif;
+    margin-bottom: 0; }
+  .qb-unipro-contest.qbrecipe .how-it-works p,
+  .qb-unipro-contest.qbrecipe .form p,
+  .qb-unipro-contest.qbrecipe .rules p {
+    font-size: 14px; }
+.qb-unipro-contest.qbrecipe .how-it-works h2 {
+  font-size: 36px;
+  position: relative;
+  text-align: center; }
+  .qb-unipro-contest.qbrecipe .how-it-works h2:before, .qb-unipro-contest.qbrecipe .how-it-works h2:after {
+    border-top: 1px solid #301d14;
+    border-bottom: 1px solid #301d14;
+    content: " ";
+    height: 5px;
+    position: absolute;
+    top: 16px;
+    width: 260px; }
+  .qb-unipro-contest.qbrecipe .how-it-works h2:before {
+    left: -15px; }
+  .qb-unipro-contest.qbrecipe .how-it-works h2:after {
+    right: -15px; }
+.qb-unipro-contest.qbrecipe .form {
+  position: relative; }
+  .qb-unipro-contest.qbrecipe .form:before, .qb-unipro-contest.qbrecipe .form:after {
+    border-top: 1px solid #301d14;
+    border-bottom: 1px solid #301d14;
+    content: " ";
+    height: 5px;
+    left: 55px;
+    margin: 0 auto;
+    position: absolute;
+    width: 820px; }
+  .qb-unipro-contest.qbrecipe .form:before {
+    top: 0; }
+  .qb-unipro-contest.qbrecipe .form:after {
+    bottom: 0; }
+  .qb-unipro-contest.qbrecipe .form h2 {
+    font: bold 18px/1.4 arial, sans-serif;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    text-transform: none; }
+  .qb-unipro-contest.qbrecipe .form .privacy {
+    text-decoration: underline; }
+  .qb-unipro-contest.qbrecipe .form .template {
+    background: url(../img/doc.png) no-repeat left center;
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 30px; }
+    .qb-unipro-contest.qbrecipe .form .template span {
+      text-decoration: underline; }
+  .qb-unipro-contest.qbrecipe .form .wufoo-form {
+    background: #dedede;
+    margin: 15px 0;
+    padding: 0 15px 15px;
+    position: relative;
+    top: -19px; }
+    .qb-unipro-contest.qbrecipe .form .wufoo-form:before {
+      background: #f4f4f4;
+      content: " ";
+      height: 20px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      width: 100%;
+      z-index: 20; }
+    .qb-unipro-contest.qbrecipe .form .wufoo-form #wufoo-z1jzqlzd1iwppt6 {
+      position: relative;
+      z-index: 10; }
+.qb-unipro-contest.qbrecipe .rules p {
+  margin-bottom: 0; }
+.qb-unipro-contest.qbrecipe .rules a {
+  font-style: italic;
+  text-decoration: underline; }
+
+.qb-unipro-contest.rules .contest-rules {
+  background: #f4f4f4;
+  padding: 30px 15px; }
+.qb-unipro-contest.rules h3, .qb-unipro-contest.rules p, .qb-unipro-contest.rules li {
+  font: 11px/1.4 arial, sans-serif; }
+.qb-unipro-contest.rules h2 {
+  font: normal 13px/1.4 arial, sans-serif; }
+.qb-unipro-contest.rules h3 {
+  font-weight: bold; }
+.qb-unipro-contest.rules p.privacy {
+  font-size: 14px;
+  margin: 0 auto 30px;
+  width: 750px; }
+  .qb-unipro-contest.rules p.privacy a {
+    text-decoration: underline; }
+
+@media only screen and (max-width: 930px) {
+  p {
+    font-size: 1.2em;
+    line-height: 1.8; }
+
+  label {
+    font-size: 1.2em; }
+
+  header .nestle-link,
+  header .search {
+    display: none; }
+
+  #top {
+    margin: auto;
+    min-height: 0; }
+
+  footer {
+    height: auto; }
+    footer .chefmate-logo,
+    footer .np-logo {
+      position: relative; }
+    footer .chefmate-logo {
+      float: left;
+      margin-left: 20px; }
+    footer .np-logo {
+      float: right;
+      margin-right: 20px; }
+    footer .center {
+      margin: 0 0 30px 0;
+      text-indent: 0;
+      width: auto; }
+
+  .container {
+    width: 100%; }
+
+  .main {
+    border-top: none;
+    height: auto;
+    min-height: 0;
+    padding-bottom: 0; }
+    .main .content {
+      float: none;
+      min-height: 0;
+      width: 100%; }
+      .main .content > img {
+        height: auto;
+        width: 100%; }
+    .main .sidebar {
+      display: none;
+      float: none; }
+
+  .teaser {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .teaser h2 {
+      width: 90%; }
+
+  .detail > img {
+    height: auto;
+    width: 100%; }
+  .detail .copy .actions .print {
+    display: none; }
+  .detail .copy .body {
+    margin: 40px auto 0;
+    width: 80%; }
+
+  .tablet-only.que-bueno {
+    margin-top: 15px;
+    display: block; }
+    .tablet-only.que-bueno img {
+      display: block;
+      width: 100%; }
+
+  .contest .tablet-only.sign-up {
+    display: none; }
+
+  .rules .print {
+    display: none !important; }
+
+  .about-us .content .que-bueno img {
+    margin-right: 0;
+    width: 20%; }
+  .about-us .content .que-bueno h3, .about-us .content .que-bueno p {
+    float: right;
+    width: 70%; }
+  .about-us .content .que-bueno a {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+    width: 50%; }
+
+  .quebueno.landing .main {
+    background-size: 100%; }
+  .quebueno.landing .content {
+    width: auto; }
+  .quebueno.landing .intro {
+    padding-bottom: 10.7%; }
+  .quebueno.landing .video {
+    padding: 30px 2%; }
+    .quebueno.landing .video h2 {
+      font-size: 28px; }
+  .quebueno.landing .recipe h3 {
+    font-size: 16px; }
+  .quebueno.landing .recipe p {
+    font-size: 13px;
+    line-height: 1.6; } }
+@media only screen and (max-width: 671px) {
+  body {
+    color: #301d13; }
+
+  .mobile-only {
+    display: block !important; }
+
+  .tablet-only {
+    display: none !important; }
+
+  p {
+    font-size: 14px; }
+
+  h1,
+  h2 {
+    font-size: 36px; }
+
+  #lightbox {
+    background: rgba(0, 0, 0, 0.5); }
+    #lightbox .welcome {
+      margin: 0 auto;
+      height: 90%;
+      top: 5%;
+      width: 90%; }
+      #lightbox .welcome > div {
+        border: 0;
+        height: 100%;
+        padding: 0px; }
+      #lightbox .welcome h1,
+      #lightbox .welcome p {
+        padding: 0 15px; }
+      #lightbox .welcome h1 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        padding: 15px 15px 0; }
+      #lightbox .welcome p {
+        font-size: 13px;
+        line-height: 1.5; }
+      #lightbox .welcome .welcome-copy {
+        height: 90%; }
+    #lightbox .thank-you {
+      margin: 0 auto !important;
+      top: 5%;
+      width: 90% !important; }
+
+  header {
+    background: url(../img/m/woodgrain.jpg) no-repeat center 70px;
+    height: auto; }
+    header .container {
+      height: auto;
+      min-height: 107px; }
+    header .logo {
+      background-size: contain;
+      float: left;
+      height: 80px;
+      margin: 15px 0 12px 15px;
+      position: static;
+      top: 15px;
+      width: 89px; }
+    header button {
+      background: url(../img/m/menu.png) no-repeat right center;
+      background-size: contain;
+      border: none;
+      color: white;
+      float: right;
+      font: 400 23px/20px 'yanone kaffeesatz', sans-serif;
+      height: 23px;
+      padding-right: 35px;
+      position: relative;
+      top: 75px;
+      right: 15px;
+      text-transform: uppercase; }
+      header button.active {
+        background-image: url(../img/m/close.png); }
+    header nav {
+      background: url(../img/m/cardboard.jpg);
+      clear: both;
+      display: none;
+      float: none;
+      overflow: hidden;
+      position: static; }
+      header nav ul li {
+        width: 50%; }
+        header nav ul li a {
+          background: #f3ebd1;
+          color: #6d513e;
+          height: 35px;
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 35px;
+          margin: 15px auto;
+          padding: 10px 0;
+          text-align: center;
+          width: 85%; }
+          header nav ul li a:active {
+            background: white; }
+        header nav ul li:hover a, header nav ul li.active a {
+          background: white; }
+      header nav ul .partners,
+      header nav ul .talk-shop {
+        display: none; }
+    header .sign-up {
+      background: #b32317;
+      clear: both;
+      font: 300 16px/30px 'yanone kaffeesatz', sans-serif;
+      display: block;
+      padding: 5px 10px;
+      text-transform: uppercase; }
+      header .sign-up .button {
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background: #eec914;
+        color: black;
+        display: block;
+        float: right;
+        font-weight: 700;
+        padding: 0 25px; }
+
+  footer {
+    border-top: none;
+    padding: 0 0 10px 0; }
+    footer nav,
+    footer .center small {
+      display: none; }
+    footer .contact {
+      background: #ede5cb;
+      color: #301d14;
+      font-size: 14px;
+      padding: 0 0 40px 0;
+      text-transform: uppercase; }
+      footer .contact .call {
+        display: block;
+        text-transform: none;
+        font-size: 30px; }
+        footer .contact .call .phone {
+          font-weight: bold; }
+        footer .contact .call a {
+          color: #301d14;
+          text-decoration: none; }
+      footer .contact .request-visit {
+        background-color: transparent;
+        border: 0;
+        color: transparent;
+        display: block;
+        font: 0/0 a;
+        text-shadow: none;
+        background: url(../img/m/request-visit.png) no-repeat center center;
+        background-size: contain;
+        height: 50px;
+        margin: 5px auto; }
+    footer .chefmate-logo,
+    footer .np-logo {
+      float: none;
+      margin: 20px auto;
+      position: static; }
+    footer .mobile-only a {
+      display: block;
+      margin: 20px 0;
+      text-align: center; }
+    footer .mobile-only small {
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+      width: 300px; }
+    footer .mobile-only .back-to-top {
+      background: url(../img/m/arrow-top.png) no-repeat right center;
+      background-size: contain;
+      font: 400 20px/30px 'yanone kaffeesatz', sans-serif;
+      margin: 0 auto;
+      text-indent: -30px;
+      text-transform: uppercase;
+      width: 130px; }
+
+  .main .sidebar {
+    display: block;
+    float: none;
+    width: auto; }
+    .main .sidebar .call-to-action {
+      border-bottom: none; }
+      .main .sidebar .call-to-action img:first-child {
+        display: none; }
+      .main .sidebar .call-to-action img {
+        width: 100%; }
+    .main .sidebar .partners {
+      overflow: hidden;
+      padding: 0 0 15px 0;
+      position: static;
+      text-align: left;
+      width: auto; }
+      .main .sidebar .partners:before {
+        background: #301d14;
+        color: white;
+        display: block;
+        font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+        height: 30px;
+        letter-spacing: 0px;
+        text-indent: 10px;
+        text-transform: uppercase;
+        content: "Partners"; }
+      .main .sidebar .partners .intro {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 10px; }
+      .main .sidebar .partners .partner {
+        border: none;
+        float: left;
+        padding: 10px 0;
+        text-align: center;
+        width: 33%; }
+        .main .sidebar .partners .partner img {
+          width: 90%; }
+  .main .content .intro {
+    padding: 0 10px 15px 10px; }
+    .main .content .intro h1 {
+      background: #301d14;
+      color: white;
+      display: block;
+      font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+      height: 30px;
+      letter-spacing: 0px;
+      text-indent: 10px;
+      text-transform: uppercase;
+      margin: 0 -10px 30px; }
+    .main .content .intro p {
+      font: bold 15px/1.6 arial, sans-serif; }
+
+  .teaser {
+    background-position: center top;
+    background-size: auto 230px;
+    border-top: 7px solid #301d14;
+    height: auto;
+    padding: 0; }
+    .teaser .headline,
+    .teaser .summary {
+      position: static; }
+    .teaser .headline {
+      bottom: auto;
+      height: 230px;
+      position: relative; }
+      .teaser .headline h2 {
+        bottom: 0px;
+        font-size: 44px;
+        margin: 0 10px 10px 10px;
+        position: absolute;
+        width: auto; }
+    .teaser .summary {
+      background: white; }
+      .teaser .summary > * {
+        padding: 10px; }
+      .teaser .summary p {
+        margin: 0;
+        width: auto; }
+      .teaser .summary span,
+      .teaser .summary .see-all a {
+        background: none;
+        padding: 0; }
+      .teaser .summary .byline {
+        color: #754c29;
+        font-style: italic;
+        margin-bottom: 10px; }
+      .teaser .summary .lead-in {
+        font-size: 14px;
+        line-height: 1.5; }
+      .teaser .summary .read-more {
+        padding-top: 0;
+        right: 10px; }
+    .teaser .see-all {
+      background: #f3ebd1;
+      font-size: 14px;
+      padding: 15px 10px;
+      text-transform: none; }
+      .teaser .see-all a {
+        color: #754c29; }
+
+  .detail {
+    padding: 30px 0 0 0;
+    position: relative; }
+    .detail > img {
+      border-bottom: none; }
+    .detail .copy {
+      padding: 0;
+      position: static; }
+      .detail .copy .back {
+        background: #301d14;
+        color: white;
+        display: block;
+        font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+        height: 30px;
+        letter-spacing: 0px;
+        text-indent: 10px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 0px;
+        width: 100%; }
+        .detail .copy .back:before {
+          content: ""; }
+      .detail .copy .body {
+        margin: 0;
+        padding: 10px;
+        width: auto; }
+        .detail .copy .body .byline {
+          color: #754c29;
+          font-size: 13px;
+          font-style: italic;
+          margin-bottom: 10px; }
+        .detail .copy .body .nav {
+          list-style: none;
+          overflow: hidden;
+          margin: 0 0 20px 0;
+          padding: 0; }
+          .detail .copy .body .nav li a {
+            display: block;
+            font-weight: bold;
+            height: 25px;
+            line-height: 25px;
+            text-transform: uppercase; }
+          .detail .copy .body .nav li.next {
+            float: right; }
+            .detail .copy .body .nav li.next a {
+              background: url(../img/m/arrow-right.png) no-repeat right center;
+              background-size: contain;
+              padding-right: 40px; }
+          .detail .copy .body .nav li.prev {
+            float: left; }
+            .detail .copy .body .nav li.prev a {
+              background: url(../img/m/arrow-left.png) no-repeat left center;
+              background-size: contain;
+              padding-left: 40px; }
+      .detail .copy .actions {
+        margin: 0 0 15px 0;
+        position: static; }
+        .detail .copy .actions li {
+          float: none; }
+        .detail .copy .actions .email {
+          background: url(../img/m/email.png) no-repeat left center;
+          background-size: contain;
+          color: #301d14;
+          font: 13px/1.4 arial, sans-serif;
+          height: 15px;
+          text-indent: 25px;
+          width: auto; }
+        .detail .copy .actions .print {
+          display: none; }
+      .detail .copy .introduction {
+        clear: both;
+        font-weight: bold; }
+      .detail .copy .ingredients {
+        padding: 10px 20px; }
+        .detail .copy .ingredients h2 {
+          font-weight: bold !important; }
+        .detail .copy .ingredients thead {
+          display: none; }
+        .detail .copy .ingredients tr {
+          display: block;
+          margin-top: 5px; }
+          .detail .copy .ingredients tr td {
+            display: inline;
+            padding: 0; }
+          .detail .copy .ingredients tr .first {
+            display: block;
+            font-weight: bold; }
+            .detail .copy .ingredients tr .first:before {
+              content: " - "; }
+          .detail .copy .ingredients tr .second {
+            margin-left: 10px; }
+          .detail .copy .ingredients tr .third.has-content:before {
+            content: " | ";
+            padding: 0 5px; }
+      .detail .copy .procedure h2 {
+        font-weight: bold !important; }
+    .detail .other-articles {
+      border: none;
+      margin: 0;
+      padding: 0; }
+      .detail .other-articles h2 {
+        background: #301d14;
+        color: white;
+        display: block;
+        font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+        height: 30px;
+        letter-spacing: 0px;
+        text-indent: 10px;
+        text-transform: uppercase;
+        margin: 0; }
+      .detail .other-articles .nav {
+        background: #f1ece0;
+        padding: 10px; }
+        .detail .other-articles .nav li,
+        .detail .other-articles .nav li:first-child {
+          border: none;
+          float: none;
+          left: auto; }
+          .detail .other-articles .nav li a,
+          .detail .other-articles .nav li:first-child a {
+            background: url(../img/m/arrow-right.png) no-repeat 95% center;
+            background-size: auto 60%;
+            font: 700 23px/1.2 'yanone kaffeesatz', sans-serif;
+            height: auto;
+            padding: 10px 70px 10px 10px;
+            text-transform: uppercase;
+            width: auto; }
+
+  .home .content .menu-ideas:before,
+  .home .content .promo-ideas:before,
+  .home .content .business-tips:before {
+    background: #301d14;
+    color: white;
+    display: block;
+    font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+    height: 30px;
+    letter-spacing: 0px;
+    text-indent: 10px;
+    text-transform: uppercase; }
+  .home .content .menu-ideas .teaser,
+  .home .content .promo-ideas .teaser,
+  .home .content .business-tips .teaser {
+    border-top: none; }
+  .home .content .menu-ideas:before {
+    content: "Menu Ideas"; }
+  .home .content .promo-ideas:before {
+    content: "Promo Ideas"; }
+  .home .content .business-tips:before {
+    content: "Business Tips"; }
+
+  .about-us .content {
+    padding: 30px 0 0 0; }
+    .about-us .content > img {
+      border-bottom: none; }
+    .about-us .content .intro {
+      padding-top: 10px; }
+      .about-us .content .intro h1 {
+        background: #301d14;
+        color: white;
+        display: block;
+        font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+        height: 30px;
+        letter-spacing: 0px;
+        text-indent: 10px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 0px;
+        width: 100%; }
+    .about-us .content .categories .category,
+    .about-us .content .categories .category.active {
+      padding-bottom: 0; }
+      .about-us .content .categories .category h2,
+      .about-us .content .categories .category.active h2 {
+        -moz-box-shadow: 0 2px 2px black;
+        -webkit-box-shadow: 0 2px 2px black;
+        box-shadow: 0 2px 2px black;
+        background: url(../img/m/brownlinen.jpg);
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        text-indent: 0;
+        z-index: 50; }
+        .about-us .content .categories .category h2 a,
+        .about-us .content .categories .category.active h2 a {
+          color: #f2ebd1;
+          background: url(../img/m/plus.png) no-repeat 95% center;
+          background-size: auto 50%;
+          padding: 15px; }
+      .about-us .content .categories .category .products,
+      .about-us .content .categories .category.active .products {
+        padding: 0;
+        position: relative;
+        z-index: 40; }
+        .about-us .content .categories .category .products .product,
+        .about-us .content .categories .category.active .products .product {
+          background: #f1ece0;
+          float: none;
+          height: auto;
+          margin: 0;
+          width: auto; }
+          .about-us .content .categories .category .products .product.active h3 a,
+          .about-us .content .categories .category.active .products .product.active h3 a {
+            background-image: url(../img/m/triangle2.png); }
+          .about-us .content .categories .category .products .product img,
+          .about-us .content .categories .category .products .product br,
+          .about-us .content .categories .category .products .product button,
+          .about-us .content .categories .category.active .products .product img,
+          .about-us .content .categories .category.active .products .product br,
+          .about-us .content .categories .category.active .products .product button {
+            display: none; }
+          .about-us .content .categories .category .products .product h3,
+          .about-us .content .categories .category.active .products .product h3 {
+            font: 600 16px/1.2 arial, sans-serif;
+            margin: 0;
+            text-transform: none; }
+            .about-us .content .categories .category .products .product h3:first-line,
+            .about-us .content .categories .category.active .products .product h3:first-line {
+              font-size: 16px; }
+            .about-us .content .categories .category .products .product h3 a,
+            .about-us .content .categories .category.active .products .product h3 a {
+              background: url(../img/m/triangle.png) no-repeat 96% center;
+              background-size: auto 20px;
+              display: block;
+              padding: 15px 50px 15px 15px; }
+          .about-us .content .categories .category .products .product .right,
+          .about-us .content .categories .category.active .products .product .right {
+            float: none;
+            margin: 0;
+            width: auto; }
+          .about-us .content .categories .category .products .product .product-info,
+          .about-us .content .categories .category.active .products .product .product-info {
+            background: #301d14;
+            color: white;
+            padding: 15px; }
+            .about-us .content .categories .category .products .product .product-info h4,
+            .about-us .content .categories .category.active .products .product .product-info h4 {
+              display: none; }
+            .about-us .content .categories .category .products .product .product-info img,
+            .about-us .content .categories .category.active .products .product .product-info img {
+              display: block;
+              margin: 0 15px 15px 0; }
+            .about-us .content .categories .category .products .product .product-info a,
+            .about-us .content .categories .category.active .products .product .product-info a {
+              color: white;
+              text-decoration: underline; }
+              .about-us .content .categories .category .products .product .product-info a:after,
+              .about-us .content .categories .category.active .products .product .product-info a:after {
+                content: " >"; }
+            .about-us .content .categories .category .products .product .product-info .right,
+            .about-us .content .categories .category.active .products .product .product-info .right {
+              float: none;
+              padding: 0;
+              width: auto; }
+    .about-us .content .categories .category.active h2 a {
+      background-image: url(../img/m/x.png); }
+    .about-us .content .faqs {
+      display: none; }
+
+  .contest .content p,
+  .contest .content label,
+  .contest .content input[type=text],
+  .contest .content input[type=email],
+  .contest .content textarea,
+  .contest .content .city,
+  .contest .content .city input,
+  .contest .content .state,
+  .contest .content .state input,
+  .contest .content .zip,
+  .contest .content .zip input,
+  .contest .content .thank-you {
+    width: 99% !important; }
+  .contest .content .go-to-form {
+    margin: 0 0 30px 0;
+    position: static !important;
+    text-align: right; }
+  .contest .content #form {
+    padding: 15px; }
+    .contest .content #form label {
+      font-size: 14px; }
+    .contest .content #form .state,
+    .contest .content #form .zip {
+      margin-left: 0; }
+    .contest .content #form .privacy p {
+      font-size: 11px; }
+
+  .quebueno.landing .intro {
+    padding: 0 0 15% 0; }
+    .quebueno.landing .intro > div {
+      margin: 2% 2% 0 0;
+      padding: 0 0 26%; }
+      .quebueno.landing .intro > div h1 {
+        display: none !important; }
+  .quebueno.landing .tabs {
+    display: none; }
+  .quebueno.landing .video img {
+    margin: 0 15px 0 0;
+    width: 30%; }
+  .quebueno.landing .video p {
+    float: none;
+    width: auto; }
+  .quebueno.landing .video .left {
+    float: none;
+    overflow: hidden;
+    width: auto; }
+  .quebueno.landing .video .iframe {
+    float: none;
+    width: 100%; }
+  .quebueno.landing .recipes hr {
+    display: none; }
+  .quebueno.landing .recipe {
+    border-bottom: 1px solid #3a2618;
+    float: none;
+    margin-right: 0;
+    padding-bottom: 30px;
+    width: auto; }
+    .quebueno.landing .recipe .recipe-url {
+      display: inline-block;
+      line-height: 35px;
+      margin-left: 15px;
+      padding-top: 0; } }

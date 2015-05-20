@@ -1,0 +1,33 @@
+============================================
+Log Created: 2013-01-23T17:01:15-06:00
+============================================
+Symphony Log
+Opened:  2013-01-23T17:01:15-06:00
+Version: 2.3.1
+Domain:  chefmate.dev
+--------------------------------------------
+
+============================================
+INSTALLATION PROCESS STARTED (2013-01-23T17:02:30-06:00)
+============================================
+01/23/2013 5:02 pm > Notice: MYSQL: Establishing Connection
+01/23/2013 5:02 pm > Notice: MYSQL: Importing Table Schema
+01/23/2013 5:02 pm > Notice: MYSQL: Creating Default Author
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘manifest’ folder (/manifest)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘logs’ folder (/manifest/logs)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘cache’ folder (/manifest/cache)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘tmp’ folder (/manifest/tmp)
+01/23/2013 5:02 pm > Notice: WRITING: Configuration File
+01/23/2013 5:02 pm > Notice: CONFIGURING: Frontend
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘workspace’ folder (/workspace)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘data-sources’ folder (/workspace/data-sources)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘events’ folder (/workspace/events)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘pages’ folder (/workspace/pages)
+01/23/2013 5:02 pm > Notice: WRITING: Creating ‘utilities’ folder (/workspace/utilities)
+01/23/2013 5:02 pm > Notice: CONFIGURING: Installing existing extensions
+============================================
+INSTALLATION COMPLETED: Execution Time - 4 sec (23.01.13 17:02:34)
+============================================
+
+
+

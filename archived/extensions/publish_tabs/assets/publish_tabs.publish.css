@@ -1,0 +1,9 @@
+.tab-group {
+	position: absolute;
+	top: -99999em;
+	left: -99999em;
+}
+
+.tab-group-selected {
+	position: static;
+}

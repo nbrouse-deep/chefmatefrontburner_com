@@ -1,0 +1,915 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: kyte/search.php:12
+msgid " - Returned: "
+msgstr ""
+
+#. Text in echo
+#: kyte/search.php:12
+msgid " Item"
+msgstr ""
+
+#. Text in echo
+#: kyte/search.php:12
+msgid " Items"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:1
+msgid " page template has been successfully created"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:1
+msgid " page template has been updated"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:3
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "(Optional) Add a Client Name for this Project?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "(Optional) Add a URL for this Project?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "(Optional) Add the Date this Project Took Place?"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:3
+msgid "0 Comments"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:3
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "1st & 2nd Generation iPad Favicon (72x72px)"
+msgstr ""
+
+#. Text in function
+#: kyte/single-team.php:32
+#: kyte/single.php:35
+msgid "<span class=\"rp5\">Tags:</span> "
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:82
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:60
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:60
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:675
+msgid "Add Page Template"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:675
+msgid "Add Template"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Additional Portfolio Item Details"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-map-block.php:31
+msgid "Address, enter as plain text, i.e: York, England"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-portfolio-block.php:100
+#: kyte/ebor_framework/page-builder/blocks/aq-portfolio-block.php:109
+#: kyte/ebor_framework/page-builder/blocks/aq-portfolio-block.php:542
+#: kyte/ebor_framework/page-builder/blocks/aq-portfolio-block.php:551
+#: kyte/archive-portfolio.php:16
+#: kyte/taxonomy.php:23
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#. Text in echo
+#: kyte/header-single.php:17
+msgid "Back"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Background Colour"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Blog Section Title"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:88
+msgid "Button Link"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:95
+msgid "Button Text"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:668
+msgid "Cancel"
+msgstr ""
+
+#. Text in echo
+#: kyte/loop/portfolio-content.php:57
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-text-block.php:59
+msgid "Center Text?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:1
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Check to disable full-width for this post"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Check to disable the title for this section."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:659
+msgid "Choose Your Page Template"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Choose layout for Portfolio Archives."
+msgstr ""
+
+#. Text in echo
+#: kyte/loop/portfolio-content.php:60
+msgid "Client"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Client Name"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Client URL"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Comments Sub-title"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Comments Title"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Contact Form \"Email\" Title"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Contact Form \"Name\" Title"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Contact Form \"Subject\" Title"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Contact Form \"Submit\" Title"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Contact Page Options"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:206
+msgid "Create Template"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:51
+msgid "Currency"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Custom Favicon Upload"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Custom Logo Alt Text"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Custom Logo Upload"
+msgstr ""
+
+#. Text in echo
+#: kyte/loop/portfolio-content.php:54
+msgid "Date"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:126
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:95
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:128
+msgid "Delete"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:211
+msgid "Delete Template"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-text-block.php:73
+msgid "Disable auto paragraphs? (WPAutoP)"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Disable header title bar on this page / section?"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-text-block.php:66
+msgid "Display as preformatted code?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:1
+msgid "Drag block items from the left into this area to begin building your template."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/functions/aqpb_blocks.php:216
+msgid "Drag block items into this box"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Email *"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Enter a URL for this client, if left blank, client logo will open into a lightbox."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 1 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 3 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 4 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 5 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 6 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Enter your comment here..."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "FOOTER - Footer Background Colour"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Featured Images for Single Post"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:121
+msgid "Features"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-skills-block.php:75
+#: kyte/ebor_framework/page-builder/blocks/aq-map-block.php:45
+msgid "First block in row, or full-width?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Footer Social Icon $i"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Footer Social Link $i"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "GLOBAL - Adjust height of post galleries"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "GLOBAL - Highlight Colour"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "GLOBAL - Highlight Hover Colour"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "GLOBAL - Posts Per Page for Portfolio"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Gallery Shortcode"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Google Analytics Code - Include <script>!"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "HEADER - Header Background Colour"
+msgstr ""
+
+#. Text in echo
+#: kyte/404.php:17
+msgid "Head back to our homepage &rarr;"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 1"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 10"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 2"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 3"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 4"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 5"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 6"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 7"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 8"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Image 9"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:117
+msgid "Image Caption (Optional)"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:667
+msgid "Insert Template"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Job Title"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Leave a Reply"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Logged in as <a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:1
+msgid "Lorem Ipsum Dolor..."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - GLOBAL - Columns to Display Team"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - INDEX - Show categories?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - INDEX - Show date?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - INDEX - Show likes?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - SINGLE - Show Tags?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - SINGLE - Show categories?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - SINGLE - Show date?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "META - SINGLE - Show likes?"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Name *"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:130
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#. Text in echo
+#: kyte/header-single.php:18
+msgid "Next"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Non-Retina Mobile Favicon Upload"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:113
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:77
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:109
+msgid "Open / Close"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:1
+msgid "Page Builder"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:637
+msgid "Please select your template first!"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Portfolio Item Layout"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Post Social Details"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-portfolio-block.php:59
+msgid "Pre-filter this block to a portfolio-category? (Optional)"
+msgstr ""
+
+#. Text in echo
+#: kyte/header-single.php:19
+msgid "Prev"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:58
+msgid "Price"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Project Date"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Redirect child pages updwards to parent?"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Retina Logo - Needs @2x on the file e.g logo@2x.png"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Retina iPad Favicon (144x144px)"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Retina iPhone Favicon (114x114px)"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "SECTIONS - Section Heading Color"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:206
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:266
+msgid "Save Template"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Scroll Offset - Controls the offset of the header when scrolling."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:1
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "SubFooter Copyright Text"
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:1
+msgid "Table Detail"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Team Page Title"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:197
+msgid "Template Name"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:1
+msgid "Testimonial"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:1
+msgid "The "
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "The Gallery Shortcode"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "The Job Title"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:90
+msgid "The Testimonial"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:85
+msgid "The Testimonial Giver"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "The Video Link"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:675
+msgid "The \\\"[template]\\\" shortcode already exists, possibly added by the theme or other plugins. Please consult with the theme author to consult with this issue"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:1
+msgid "The \\\"template\\\" post type already exists, possibly added by the theme or other plugins. Please consult with theme author to consult with this issue"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:1
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-blog-block.php:26
+msgid "This block will output all of your Blog posts."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-portfolio-block.php:40
+msgid "This block will output all of your Portfolio posts."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-team-block.php:26
+msgid "This block will output all of your Team Member posts."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:675
+msgid "This template is empty"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:44
+msgid "Title for this Table"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Title of your Portfolio"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/view/view-builder-page.php:244
+msgid "To create a custom page template, give it a name above and click Create Template. Then choose blocks like text, widgets or tabs &amp; toggles from the left column to add to this template.
+									<br/><br/>
+									You can drag and drop the blocks to put them in the order you want. Click on the small arrow at the corner of each block to reveal additional configuration options. You can also resize each block by clicking on either side of the block (Note that some blocks are not resizable)
+									<br/><br/>
+									When you have finished building your custom page template, make sure you click the Save Template button."
+msgstr ""
+
+#. Text in echo
+#: kyte/loop/portfolio-content.php:63
+msgid "URL"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 1"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 2"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 3"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 4"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 5"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 6"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "URL for this client (optional)"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-service-columns-block.php:97
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:124
+msgid "Upload"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-map-block.php:38
+msgid "Upload a map marker image (optional)"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-service-columns-block.php:95
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:122
+msgid "Upload an Image (Required)"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-image-block.php:33
+msgid "Upload an Image? (Required)"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/metaboxes.php:1
+msgid "Upload an image or enter an URL."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/theme_options.php:28
+msgid "Use full-width home section?"
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-dribbble-block.php:28
+msgid "Use this block to add a dribbble feed to your page."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-testimonials-block.php:38
+msgid "Use this block to add client testimonials to your page. Grab the edge of the block to resize to your needs."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-text-block.php:33
+msgid "Use this block to add columns of text to your page. Grab the edge of the block to resize to your needs."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-service-columns-block.php:37
+msgid "Use this block to add columns with images above each to the page."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-gallery-block.php:45
+msgid "Use this block to add full width image galleries to your page."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-image-block.php:28
+msgid "Use this block to add images to your page. Grab the edge of the block to resize to your needs."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-pricing-table-block.php:39
+msgid "Use this block to add pricing tables to your page."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-skills-block.php:49
+msgid "Use this block to add skill bars to the page."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-tabs-block.php:43
+msgid "Use this block to add tabs and accordions to the page."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-clear-block.php:43
+msgid "Use this block to clear the floats between two or more separate blocks vertically."
+msgstr ""
+
+#. Text in echo
+#: kyte/ebor_framework/page-builder/blocks/aq-alert-block.php:44
+msgid "Use this to add a fixed, or dismissable alert to your page."
+msgstr ""
+
+#. Text in function
+#: kyte/comments.php:19
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:661
+msgid "You don\\'t have any template yet. Let\\'s %s create %s one!"
+msgstr ""
+
+#. Text in echo
+#: kyte/search.php:12
+msgid "Your Search For: "
+msgstr ""
+
+#. Text in echo
+#: kyte/functions.php:69
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: kyte/ebor_framework/page-builder/classes/class-aq-page-builder.php:1
+msgid "aq-page-builder"
+msgstr ""
+
+#. Text in echo
+#: kyte/searchform.php:2
+msgid "type and hit enter"
+msgstr ""

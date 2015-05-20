@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------------
+	Stylesheet for 'Admin CSS Override' extension;
+	CSS rules placed here will override Symphony Admin styles;
+-----------------------------------------------------------------------------*/
+
+
+#header h1 {
+    background: #282828 url(../../../workspace/img/chefmate-logo.png) no-repeat 30px center;
+    text-indent: -9999em;
+    height: 42px;
+}

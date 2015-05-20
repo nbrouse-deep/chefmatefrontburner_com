@@ -1,0 +1,1631 @@
+/*
+Theme Name: Chefmate-Child
+Theme URI: http://www.sugards.com
+Template: chefmate
+Version: 1.1.1
+Description: Chefmate Child Theme
+Author: Nathan Pratt
+Author URI: http://www.sugards.com
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: white, custom-background, threaded-comments, translation-ready, custom-menu
+*/
+
+@import url("../chefmate/style.css");
+
+/**************************** write custom css below ****************************/
+
+@font-face {
+  font-family: 'typicons';
+  src: url("/wp-includes/typeicon/typicons.eot");
+  src: url("/wp-includes/typeicon/typicons.eot?#iefix") format('embedded-opentype'),
+       url("/wp-includes/typeicon/typicons.woff") format('woff'),
+       url("/wp-includes/typeicon/typicons.ttf") format('truetype'),
+       url("/wp-includes/typeicon/typicons.svg#typicons") format('svg');
+	url("/wp-includes/typeicon/morefonts.svg#typicons") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/******************************** Type Icon **********************************************/
+.page-id-675 .inner {
+    padding-top: 0px !important;
+}
+.page-id-675 .inner h2 {
+padding-top: 20px;
+}
+.page-id-675 .fb-bg {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 0 auto;
+    min-height: 350px;
+    padding: 50px 0 0;
+    width: 100%;
+}
+.Hide {
+display:none;
+}
+.Show {
+display:block;
+}
+.table-striped .Show {
+	display:table-row !important;
+}
+.contactbuttons {
+    border: 1px solid #c13832;
+    height: 60px;
+    padding: 5px 20px;
+    width: 295px;
+	position:relative;
+	margin:0 auto;
+}
+.contactbuttons .fa-envelope:hover {
+    	color: #fff;
+	transition:all .5s ease-in-out;
+}
+.contactbuttons p {
+    color: #c13832;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    right: 40px;
+    text-transform: uppercase;
+    top: 15px;
+}
+.contactbuttons:hover{
+transition:all .5s ease-in-out;
+ background: #c13832;
+}
+.contactbuttons:hover a {
+transition:all .5s ease-in-out;
+background:transparent;
+color: white !important;
+}
+.contactbuttons a{
+text-decoration:none !important;
+}
+
+.contactbuttons:hover .fa-envelope-o, .contactbuttons:hover .typcn-messages, .contactbuttons:hover .typcn-shopping-cart  {
+	color:#fff;
+	transition:all .5s ease-in-out;
+}
+.contactbuttons .typcn-messages {
+    color: #c13832;
+    font-size: 2.8em;
+    left: 15px;
+    margin-right: 40px;
+    position: absolute;
+    top: 13px !important;
+}
+.contactbuttons .fa-envelope-o {
+    bottom: 0px;
+    color: #c13832;
+    float: left;
+    font-size: 2.8em;
+    left: 15px;
+    margin-right: 40px;
+    position: absolute;
+}
+.contactbuttons .typcn-shopping-cart {
+    top: 5px;
+    color: #c13832;
+    float: left;
+    font-size: 3em;
+    left: 0px;
+    margin-right: 40px;
+    position: absolute;
+}
+.topcontactbox .fa-phone {
+    color: #c13832;
+    float: left;
+    font-size: 2.5em;
+    padding-top: 5px;
+}
+.topcontactbox a {
+    color: #351d15 !important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    position:relative;
+}
+.topcontactbox img {
+    height: 70px;
+    position: relative;
+    width: 60px;
+}
+/* Old Code
+.topcontactbox --a {
+    color: #351d15 !important;
+    font-size: 22px;
+    font-weight: 600;
+    left: 90px;
+    line-height: 22px;
+    position: absolute;
+}
+.topcontactbox --img {
+    bottom: 0;
+    height: 70px;
+    left: 15px;
+    position: absolute;
+    width: 60px;
+}
+*/
+.topcontactbox a:hover {
+    color:#c13832 !important;
+text-decoration:underline;
+}
+.topcontactbox {
+    background: transparent !important; 
+    padding: 15px 10px 15px 30px;
+    position: relative;
+    margin:0 auto;
+}
+
+.divider {
+    background: none repeat scroll 0 0 black;
+    content: "/";
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 2px;
+}
+
+/***************** General CSS ****************************/
+h1 {font-family: "alternate-gothic-no-3-d",sans-serif; font-size:60px;color:#351d15 !important;font-weight: normal;line-height: 25px;}
+h2 {
+    color: #351d15 !important;
+    font-family: "alternate-gothic-no-3-d",sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 42px;
+}
+h3{font-family: "proxima-nova",sans-serif;color:#351d15 !important;font-weight: normal;line-height: 25px;}
+h4{font-family: "alternate-gothic-no-3-d",sans-serif;color:#8d4b35;font-size:48px;font-weight:normal; text-transform:none;line-height: 40px;}
+
+a{font-family: "proxima-nova",sans-serif;color:#bf3937 !important;font-weight: normal;font-size:18px;}
+
+a:hover{color:#351d15 !important; text-decoration:underline;}
+
+a:focus{color:#bf3937 !important; text-decoration:underline;}
+p{font-family: "proxima-nova",sans-serif;font-size:24px;}
+
+.theinnercontainer {
+	max-width:1080px;
+	margin:0 auto;
+	padding: 0 20px;
+}
+ol p {
+    font-size: 16px !important;
+}
+.row {margin:0 !important;}
+.container{width:100% !important;}
+.center {
+text-align:center;
+}
+.right {
+    text-align: right;
+}
+.bold {
+	font-weight:bold;
+}
+.Hide {
+	display:none !important;
+}
+.italic{
+	font-style:italic;
+}
+.room {
+    margin-bottom: 25px;
+}
+.room-top {
+margin-top: 25px;
+}
+.sub-bg {
+    background-image: url("/wp-content/uploads/2014/10/sub-bg.jpg");
+    height: 240px;
+    margin: -90px 0 0;
+    width: 100%;
+}
+.post .sub-bg {
+    height: 320px;
+}
+hr {
+	margin: 30px 0 !important;
+}
+.overlaybar p {
+    color: white;
+    font-family: "alternate-gothic-no-3-d",sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.overlaybar h1 {
+    color: white !important;
+    font-size: 4em;
+font-family: "alternate-gothic-no-3-d",sans-serif;
+}
+.overlaybar {
+    bottom: 200px;
+    position: absolute;
+    font-family: "alternate-gothic-no-3-d",sans-serif;
+    max-width:1080px;
+}
+.overlaybar a {
+    text-decoration:none !Important;
+}
+.seeproducts-btn {
+    background-color: white;
+    color: #351d15;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 13px;
+    text-align: center;
+    transition:all 200ms ease-in 0s;
+}
+.seeproducts-btn a {
+    color: #351d15 !important;
+}
+.seeproducts-btn a:hover {
+    text-decoration:none !important;
+}
+.seeproducts-btn:hover {
+    background-color: #ece5d9;
+    transition:all 200ms ease-in 0s;
+}
+/**************************** Que-Bueno Landing Page ****************************/
+.whitebox img {
+    display: block;
+    margin: 0 auto;
+}
+.copybox {
+    padding-top: 85px;
+}
+.bigspace {
+    margin: 40px 0;
+}
+.bigspace iframe {
+    display: block;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+/**************************** Que-Bueno ****************************/
+
+.quebueno img{
+margin:0;
+}
+.quebueno h2{
+margin:0;
+}
+.quebueno p{
+margin:0 !important;
+}
+.quebueno {
+    border: 1px solid #bf3937;
+    padding: 30px 0;
+}
+#que-bueno .inner {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/**************************** True Food ****************************/
+#true-food {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 0 auto;
+    min-height: 670px;
+    width: 100%;
+}
+.whitebox {
+    background-color: white;
+    padding: 20px;
+}
+
+/*************** The Front Burner **************************/
+.bottomburner p {
+    font-size: 16px;
+}
+.smalltitle{font-size:18px !important;font-weight: 600;}
+
+.wmle_container .wmle_item .wpme_image img {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    width: 400px !important;
+}
+.wmle_container .wmle_item {
+    border: 1px solid #e5e5e5;
+    box-shadow: none !important;
+    margin: 20px !important;
+    padding: 0 !important;
+}
+.fb-bg {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 0 auto;
+    min-height: 670px;
+    padding: 50px 0;
+    width: 100%;
+}
+.minimal-light .esg-navigationbutton:hover, .minimal-light .esg-filterbutton:hover, .minimal-light .esg-sortbutton:hover, .minimal-light .esg-sortbutton-order:hover, .minimal-light .esg-cartbutton a:hover, .minimal-light .esg-filterbutton.selected {
+    background-color: #bf3937;
+    border: medium none !important;
+    border-radius: 0;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.13);
+    color: #fff !important;
+}
+.minimal-light .esg-navigationbutton:hover, .minimal-light .esg-filterbutton:hover, .minimal-light .esg-sortbutton:hover, .minimal-light .esg-sortbutton-order:hover, .minimal-light .esg-cartbutton a:hover, .minimal-light .esg-filterbutton.selected {
+    background-color: #bf3937 !important;
+    border-color: #bf3937 !important;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.13);
+    color: #333;
+}
+.minimal-light .esg-filterbutton span {
+    color: #bf3937 !important;
+}
+.minimal-light .esg-filterbutton span {
+    color: #bf3937 !important;
+}
+.minimal-light .esg-navigationbutton:hover, .minimal-light .esg-filterbutton:hover, .minimal-light .esg-sortbutton:hover, .minimal-light .esg-sortbutton-order:hover, .minimal-light .esg-cartbutton a:hover, .minimal-light .esg-filterbutton.selected {
+    background-color: #bf3937 !important;
+    border-color: #bf3937 !important;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.13);
+    color: #333;
+}
+.minimal-light .esg-filter-wrapper .esg-filterbutton:hover span, .minimal-light .esg-filter-wrapper .esg-filterbutton.selected span {
+    color: #fff !important;
+}
+.minimal-light .esg-filterbutton, .minimal-light .esg-navigationbutton, .minimal-light .esg-sortbutton, .minimal-light .esg-cartbutton a {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    border-radius: 0;
+    color: white !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 0 16px;
+}
+@media (min-width: 968px) {
+
+.eg-front-burner-content {
+	min-height:250px;
+}
+.eg-recipes-content {
+       min-height:250px;
+}
+
+}
+.esg-filter-wrapper {
+    display: inline-block;
+    float: left;
+    margin-bottom: 50px !important;
+}
+.eg-coolidge-element-0 {
+    display: none !important;
+}
+.eg-front-burner-element-5 {
+	text-align:left !important;
+}
+.minimal-light .esg-navigationbutton {
+    padding: 10px 30px !important;
+}
+ .minimal-light .esg-navigationbutton {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 1px solid #bf3937 !important;
+    border-radius: 0 !important;
+    color: #bf3937 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 16px !important;
+    font-weight: bolder;
+    line-height: 38px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 0 16px;
+}
+.tips {
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+
+.tips-bg {
+    background-image: url("/wp-content/uploads/2014/10/sub-bg.jpg");
+    height: 280px;
+    margin: -90px 0 0;
+    width: 100%;
+}
+.tips .sub-header {
+    color: white !important;
+    margin-bottom: 0;
+    margin-top: -95px;
+    z-index: 2147483647;
+}
+.fb-tips #header {
+    top: 0 !important;
+}
+.meta {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    margin-left: 70px;
+    padding-bottom: 30px !important;
+}
+.meta .categories {display:none !important;}
+.meta .sep {
+    display: none !important;
+}
+.business-tips-content > p {
+    font-size: 18px;
+}
+/***********************  Philosophy ***********************************/
+.phil-bg {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 20px auto 0;
+    min-height: 670px;
+    padding: 60px 0;
+    width: 100%;
+}
+.phil-bg h4 {
+margin: 0px 0 10px;
+line-height:40px;
+}
+.phil-bg .row {
+padding-bottom:30px;
+}
+.span5.leftstyle {
+    width: 45% !important;
+}
+.span7.leftimg {
+    width: 55%;
+}
+
+.leftstyle{
+	background-color:white;
+	padding:95px 10px;
+	margin:0;
+	float: right !important;
+	max-height:339px !important;
+	min-height:339px !important
+}
+.leftimg{
+	margin:0 !important;
+	float: right !important;
+	min-height:354px !important;
+}
+.leftcard {
+    margin-bottom: 50px;
+}
+.span5.rightstyle {
+    width: 45% !important;
+}
+.span7.rightimg {
+    width: 55%;
+}
+
+.rightstyle{
+	background-color:white;
+	padding:110px 10px;
+	margin:0 !important;
+	max-height:339px !important;
+	min-height:339px !important
+}
+.rightimg{
+	margin:0 !important;
+	text-align:right;
+}
+.rightcard {
+    margin-bottom: 50px;
+}
+
+/*************************** Recipes ***************************/
+.eg-recipes-element-1 {
+font-family: "alternate-gothic-no-3-d",sans-serif !important;
+}
+.eg-front-burner-element-1 {
+font-family: "alternate-gothic-no-3-d",sans-serif !important;
+}
+.eg-recipes-element-4 p {
+    text-align: left !Important;
+
+}
+.eg-recipes-element-4 p {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    clear: both;
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: "Droid Serif";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    z-index: 2 !important;
+}
+.esg-loadmore {
+    display: none !important;
+}
+.recipe-space{
+margin:20px 0 0;
+}
+.recipes h3 {
+    color: #351d15 !important;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.recipe-card {
+    background: none repeat scroll 0 0;
+    position: relative;
+}
+.recipe-card .snppopup-content {
+    font-weight: bold;
+    margin-top: 0 !important;
+    padding-left: 30px !important;
+    padding-top: 0;
+}
+.recipe-card-content {
+    margin-top: 45px;
+}
+.recipe-card-content h4 {
+    line-height: 0.8;
+    padding-left:0px;
+}
+.featured-recipe-card-content h4 {
+line-height: 35px !important;
+font-size: 34px;
+padding-left: 40px;
+}
+.recipe-card-content hr {
+	margin: 5px 0 !important;
+}
+.recipe-card img {
+    float: right;
+}
+.recipe-img img {
+    margin: 0 50px 0 0;
+    max-width: 55% !important;
+}
+.recipe-desc {
+margin-top: 25px;
+}
+.recipes hr{
+margin: 10px 0 !important;
+}
+.recipes .sub-header {
+    color: white !important;
+    margin-bottom: 80px;
+    margin-top: -180px;
+    z-index: 2147483647;
+}
+.recipes-bg {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 0 auto 50px;
+    min-height: 370px;
+    padding: 50px 0;
+    width: 100%;
+}
+.recipes-bg-strip {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 50px auto;
+    min-height: 50px;
+    padding: 0;
+    width: 100%;
+}
+.recipes .table td {
+    border: None !important;
+}
+.recipes .table-striped tbody > tr:nth-child(2n+1) > td, .table-striped tbody > tr:nth-child(2n+1) > th {
+    background-color: #f8f5f0;
+}
+.recipes .product-try img {
+    height: 83px;
+    width: 125px;
+}
+.recipes p {
+    font-family: "proxima-nova",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 23px;
+}
+.recipes hr {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border: 0 none;
+    height: 2px;
+    margin: 10px 0;
+}
+.eg-coolidge-element-3 {
+	display:none !important;
+}
+.esg-grid {
+    font-family: "alternate-gothic-no-3-d",sans-serif !important;
+}
+.eg-recipes-element-5 p {
+    text-align: left !Important;
+
+}
+.eg-recipes-element-5 p {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    clear: both;
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: "Droid Serif";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    z-index: 2 !important;
+}
+.featured-recipe p {
+    font-family: "proxima-nova",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 15px 0 5px 30px;
+}
+.featured-recipe h4{
+	font-size:34px;
+	padding-left:30px;
+}
+.featured-recipe-card-content {
+    margin-top: 25px;
+}
+/*************************** Products ***************************/
+.productnav .span2, .productnav .span3{
+	margin:0;
+}
+.productnav{
+	margin-bottom:20px
+}
+.productnav p{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.productnav a{
+	font-weight:bold;
+	font-size:16px;
+}
+.productnav a:hover{
+	font-weight:bold;
+	font-size:15px;
+	color:white !important;
+	background-color:#bf3937;
+	padding:15px 20px;
+}
+.product-banner-content {
+color: white;
+max-width: 1080px;
+margin: 0 auto;
+}
+.product-banner {
+	background-color: #351d15;
+	padding: 25px 0;
+}
+.product-banner-content p {
+	font-size: 21px;
+	font-weight: 600;
+	color: #f8f5f0 !important;
+	line-height: 18px;
+}
+.products {
+	background-color: white !important;
+	max-width: 960px;
+	margin:20px auto;
+}
+.productphoto > img {
+    display: block;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.productlabel p{
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 4px;
+}
+.productlabel span.italic {
+    text-transform: none;
+}
+.product-p {
+font-size: 19px;
+font-weight: 600;
+line-height: 20px;
+margin-bottom:20px
+}
+.product-p a{
+	padding-left:10px;
+	font-weight:bold;
+}
+.products h4 {
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+.getproduct {
+background-color: white;
+color: #bf3937;
+font-size: 21px;
+font-weight: 900 !important;
+padding: 13px;
+text-align: center;
+border: 1px solid #bf3937;
+margin-top: 17px;
+text-transform: uppercase;
+transition: all 200ms ease-in 0s;
+margin-left: auto;
+margin-right: auto;
+max-width: 250px;
+}
+.snppopup-content {
+text-decoration:none !important;
+}
+.getproduct:hover {
+    color:white !important;
+    background-color:#bf3937;
+    transition:all 200ms ease-in 0s;
+    text-decoration:none !important;
+}
+.productphoto {
+margin-top: 70px;
+}
+.product-try .recipe-title {
+	margin: 0;
+	font-size: 14px !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 18px;
+	padding-top: 15px;
+}
+.product-try a {
+	margin:0;
+	font-size:14px !important;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:10px;
+}
+.product-try .row-fluid {
+padding:10px 0;
+}
+.recipe-1 {
+    border-top-color: #f6f6f6;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: 2px 1px 1px 1px #f6f6f6;
+    margin-left: -1px !important;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 5px;
+    height: 85.5px;
+}
+.recipe-2 {
+border-top: 1px solid #f6f6f6;
+padding-bottom: 11px;
+padding-top: 5px;
+    height: 85.5px;
+box-shadow: 2px 1px 1px 1px #f6f6f6;
+margin-left: -1px !important;
+padding-left: 20px;
+}
+
+/*************************** Whats New - Offers ***************************/
+.offers h4 {
+    line-height: 50px;
+}
+.offer-label {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+     margin-top: 10px;
+
+}
+.current-offer {
+    background-color: #c13832;
+    color: white;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 0 20px;
+    padding: 10px;
+}
+.offers hr {
+	margin: 35px 0;
+}
+.gform_body textarea {
+    background-color: white ;
+}
+.gform_body input {
+    background-color: white !important;
+font-size: 20px !important;
+}
+.gform_wrapper .top_label .gfield_label {
+    clear: both;
+    color: #8D4B35 !important;
+    display: inline-block;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 1.3em;
+    margin: 10px 0 4px;
+    padding: 5px 0;
+}
+#gform_1 .btn, .btn-group > .btn, .parallax .btn, input[type="submit"] {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 2px solid #c13832;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #c13832 !important;
+    display: block;
+    font-size: 17px !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 80px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in 0s;
+}
+#gform_1 .btn:hover, .btn:focus, .btn:active, .btn.active, input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #c13832 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    transition: all 200ms ease-in 0s;
+}
+#gform_1 #input_1_8 {
+    width: 97% !important;
+}
+/*************************** Footer ***************************/
+.footer .theinnercontainer {
+    padding-top: 40px;
+}
+.footer-contact-btn {
+    background-color: white;
+    color: #351d15;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 13px;
+    text-align: center;
+    transition:all 200ms ease-in 0s;
+}
+.footer-contact-btn:hover {
+    background-color: #ece5d9;
+    transition:all 200ms ease-in 0s;
+}
+.footer-contact-btn a {
+    color: #351d15 !important;
+    font-weight: bold !important;
+}
+.brown {
+    background-color: #351d15;
+    padding: 40px 0 80px;
+    margin-top: 40px;
+}
+.brown h3 {
+   color:white !important; 
+font-family: "proxima-nova",semi-bold;
+font-size:21pt;
+padding-top:20px;
+}
+.trademark p {
+    text-align: center;
+    font-size: 12px;
+    color: #aeb0b2;
+}
+.row-fluid.footerlogos {
+    padding-bottom: 20px;
+}
+.row-fluid.footerlogos .terms {
+    padding-top: 20px;
+}
+.span3.cheflogofoot {
+    padding-top: 20px;
+}
+
+.terms {
+    color: #aeb0b2;
+font-size: 16px;
+}
+.amazon img {
+    margin: 30px 0 20px;
+}
+/***********************************   Pop-Up  ***************************************/
+.fancybox-wrap {
+    top: 100px !important;
+}
+.snp-theme-html .snp-content-inner {
+    padding: 0 !important;
+}
+.snp-theme-html {
+	overflow:visible !important;
+}
+snp-content {
+	border-radius:5px !important;
+}
+.snp-content .bigspace {
+    margin: 40px 0 !important;
+}
+.snp-content .topcontactbox img{
+	left:0 !important;
+}
+.snp-content .topcontactbox a{
+	left:70px !important;
+}
+.snp-content .contactbuttons {
+    border: 1px solid #c13832 !important;
+    height: 60px;
+    margin: 0 auto !important;
+    padding: 5px 20px !important;
+    position: relative;
+    width: 100%;
+}
+.snp-content .fb-bg {
+    background-image: url("/wp-content/uploads/2014/11/thumbnail.gif") !important;
+    margin: 0 auto;
+    min-height: 370px !important;
+    padding: 30px 10px 0 !important;
+    width: 100%;
+}
+.snp-content .topcontactbox {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important; 
+    height: 75px;
+    margin: 0 auto !important;
+    padding: 15px 10px 15px 30px !important;
+    position: relative;
+}
+.snp-content .contactbuttons p {
+    color: #c13832;
+    font-size: 15px !important;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    top: 20px !important;
+}
+.snp-content .contactbuttons .typcn-messages {
+    color: #c13832;
+    font-size: 2em !important;
+    left: 15px;
+    margin-right: 40px;
+    position: absolute;
+    top: 10px !important;
+}
+.snp-content .contactbuttons .fa-envelope-o {
+    bottom: 10px !important;
+    color: #c13832;
+    float: left;
+    font-size: 2em !important;
+    left: 15px;
+    margin-right: 40px;
+    position: absolute;
+}
+.snp-content .contactbuttons .typcn-shopping-cart {
+    color: #c13832;
+    float: left;
+    font-size: 2em !important;
+    left: 15px;
+    margin-right: 40px;
+    position: absolute;
+    top: 10px !important;
+}
+/***********************************   Navigation ***************************************/
+
+.navbar-fixed-top {
+    top: 45px;
+}
+div#header.navbar {
+border: none !important;
+box-shadow: none !important;
+padding: 0px !important;
+background: #351d15 !important;
+max-width:100%;
+}
+#header.navbar-fixed-top .navbar-inner {
+    padding: 15px 0px !important;
+   -webkit-font-smoothing: antialiased;
+}
+.navbar .nav {
+    display: inline-block !important;
+    float: none !important;
+    margin: 0px auto;
+    text-align: center;
+    font-family: "proxima-nova",sans-serif;
+	
+}
+.navbar .brand {
+    display: none !important;
+}
+#header.navbar-fixed-top .nav-collapse {
+    margin-top: 0px !important;
+    width: 100%;
+    text-align: center;
+    height: 0px !important;
+    max-width:2700px 
+-webkit-font-smoothing: antialiased;
+}
+#header.navbar .nav > li {
+    margin-left: 50px;
+    padding-top: 0px;
+}
+.navbar a{
+color:white !important;
+}
+.navbar a:hover {
+    color: #F5EFE6 !important;
+}
+.navbar li.active a {
+color:#C13832 !important;
+}
+li#menu-item-18 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -20px !important;
+    padding: 0px !important;
+}
+#header.navbar .nav li#menu-item-20 {
+    margin-left: 0px !important;
+    padding: 0px !important;
+}
+
+/******************************************  Media ***************************************************  */
+
+
+
+
+
+@media only screen and (max-width : 979px) {
+
+/* Start Philosophy Cards */
+.span5.leftstyle {
+    width: 100% !important;
+	margin-bottom: 0;
+}
+.span7.leftimg {
+    width: 100%;
+}
+.span7.leftimg img {
+    width: 100%;
+margin:auto;
+display:block;
+}
+
+.leftstyle{
+	background-color:white;
+	padding:95px 10px;
+	margin:0;
+	float: right !important;
+	max-height:339px !important;
+	min-height:0px !important
+}
+.leftimg{
+	margin:0 !important;
+	float: right !important;
+	min-height:0px !important
+}
+.leftcard {
+   margin-bottom: 50px !Important;
+}
+.span5.rightstyle {
+    width: 100% !important;
+}
+.span7.rightimg {
+    width: 100%;
+}
+.span7.rightimg img {
+    width: 100%;
+margin:auto;
+display:block;
+}
+
+.rightstyle{
+	background-color:white;
+	padding:110px 10px;
+	margin:0 !important;
+	max-height:339px !important;
+	min-height:0px !important
+}
+.rightimg{
+	margin:0 !important;
+	text-align:right;
+}
+.rightcard {
+   margin-bottom:50px !Important;
+}
+/* End Philosophy Cards */
+
+.overlaybar {
+    left: 0;
+    padding: 0 20px;
+    position: absolute;
+    top: 400px;
+}
+.sub-header {
+    color: white !important;
+    line-height: 45px;
+    margin-bottom: 120px;
+    margin-top: -217px;
+    z-index: 2147483647;
+}
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/*** Mobile Products *********/
+.product-banner-content {
+    padding: 0 20px;
+}
+.products {
+    padding: 0 20px;	
+}
+
+/********* Navigation Customization *************/
+.active a {
+    color: red !important;
+}
+.navbar-inner .container {
+    padding: 0 10px !important;
+}
+#header .btn {
+    margin-top: 10px !important;
+    padding: 10px 17px;
+}
+.navbar .brand {
+    display: block !important;
+}
+#header.myfixed {
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    top: 0px !important;
+    transition: all 0.5s ease-in-out 0s !important;
+}
+.navbar-fixed-top{top: 0px !important;}
+
+.section-head, .btn, .btn-group > .btn, .parallax .btn, input[type="submit"] {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 1px solid white;
+    font-size: 18px !important;
+    font-weight: 600;
+    height: 40px !important;
+    width: 90px !important;
+}
+#header.navbar .nav > li > a {
+    color: #b0b0b0;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in 0s;
+	margin-bottom:15px;
+}
+#header.navbar .nav > li {
+    margin-left: 20px;
+    padding-top: 0;
+}
+#header.navbar-fixed-top .navbar-inner {
+    background: url("/wp-content/uploads/2014/10/sub-bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none;
+    box-shadow: none;
+    padding: 0;
+}
+#header .nav-collapse .nav {
+    float: left !important;
+    background: transparent !important;
+    padding-top: 20px !important;
+    text-align: left;
+}
+#header.navbar-fixed-top .nav-collapse.in {
+    margin-top: 0 !important;
+    max-height: 200px;
+    min-height: 250px;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;  
+    max-width:100%;
+}
+#header.navbar-fixed-top .nav-collapse {
+    transition: all 0.5s ease-in-out 0s;
+}
+li#menu-item-18 {
+    display: none !important;
+}
+#header.navbar .nav li#menu-item-20 {
+    margin-left: 20px !important;
+    padding: 0 !important;
+}
+/* .myfixed { transition:all .5s ease-in-out !important; top:0px !important; margin: 0 auto!important; max-width: 100%!important; height:100%important; }
+.myfixed li a { color:#fff; } 
+.myfixed .sub-menu li a { color:#fff; } 
+.myfixed .sub-menu li a:hover { color:#000;} 
+.myfixed li li a:hover { color:#ccc; } 
+.myfixed li:hover > a, .myfixed li a:hover { color: #234266; } 
+.myfixed .current_page_item > a, .myfixed .current_page_ancestor > a, .myfixed .current-menu-item > a, .myfixed .current-menu-ancestor > a { color: #fff !important; font-style: normal !important;} .myfixed .menu-toggle:hover { /*this changes the mini menu hover feature*/} */
+
+}
+
+
+/************************** General Media Classes ****************************/
+
+.visible-phone {
+	display:none;
+}
+
+
+/**************************** Smartphones (portrait) ----------- */
+
+/**************************** Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 480px) {
+/* Styles */
+.click-to-chat {
+display:none;
+}
+.navbar .brand {
+    margin-bottom: 0;
+    margin-left: -5px;
+    margin-right: 0;
+    margin-top: 13px !important;
+    width: 50% !important;
+}
+.hidden-phone {
+	display:none;
+}
+.visible-phone {
+	display:block !important;
+}
+}
+
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+.navbar .brand {
+    margin-bottom: 0;
+    margin-left: -5px;
+    margin-right: 0;
+    margin-top: 13px !important;
+    width: 50% !important;
+}
+.click-to-chat {
+display:none;
+}
+.overlaybar {
+    background-image: url("/wp-content/uploads/2014/10/overlay-strip.png");
+    height: 150px;
+    padding-top: 85px;
+    position: absolute;
+    top: 500px !important;
+}
+#home {
+    background-image: url("/wp-content/uploads/2015/01/home-1334px-mobile-bg1.jpg") !Important;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 700px;
+    min-width: 100%;
+}
+}
+
+/**************************** Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) and (max-width : 768px) {
+/* Styles */
+.hidden-phone {
+	display:none;
+}
+.visible-phone {
+	display:block !important;
+}
+.quebueno img {
+    float: left;
+    margin: 60px;
+}
+.click-to-chat {
+display:none;
+}
+.quebueno {
+    border: 1px solid #bf3937;
+    padding: 30px;
+}
+.navbar .brand {
+    margin-bottom: 0;
+    margin-left: -5px;
+    margin-right: 0;
+    margin-top: 13px !important;
+    width: 50% !important;
+}
+.overlaybar {
+    background-image: url("/wp-content/uploads/2014/10/overlay-strip.png");
+    height: 300px;
+    padding-top: 85px;
+    position: absolute;
+    top: 275px !important
+}
+#home {
+    background-image: url("/wp-content/uploads/2015/01/home-1334px-mobile-bg1.jpg") !Important;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 800px;
+    min-width: 100%;
+}
+}
+@media only screen 
+and (max-width : 1023px) {
+/* Styles */
+
+#home {
+    background-image: url("/wp-content/uploads/2015/01/home-1420px-bg1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 800px;
+    min-width: 100%;
+}
+
+
+.recipe-card .span7 img {
+    width: 100% !important;
+}
+.span6.recipe-img img {
+    display: block !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: auto !important;
+    float: none !important;
+}
+.recipe-card-content .row-fluid .span6 {
+    float: left !important;
+    width: 100% !important;
+}
+.span6.what-recipe {
+    text-align: center !important;
+}
+.recipe-card-content h4 {
+    text-align: center !important;
+}
+
+}
+
+/**************************** iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+/* Styles */
+#home {
+    background-image: url("/wp-content/uploads/2015/01/home-1420px-bg1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 700px;
+    min-width: 100%;
+}
+.overlaybar {
+    background-image: url("/wp-content/uploads/2014/10/overlay-strip.png");
+    height: 250px;
+    padding-top: 85px;
+    position: absolute;
+    top: 500px !important;
+}
+}
+
+/**************************** Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 980px) {
+/* Styles */
+#home {
+    background-image: url("/wp-content/uploads/2015/01/home-1420px-bg1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 870px;
+    min-width: 100%;
+}
+#header.navbar .nav > li {
+    margin-left: 60px !important;
+    padding-top: 0;
+}
+.overlaybar {
+    background-image: url("/wp-content/uploads/2014/10/overlay-strip.png");
+    bottom: 100px;
+    height: 155px;
+    padding: 50px;
+    position: absolute;
+}
+.sub-header {
+    color: white !important;
+    margin-bottom: 115px;
+    margin-top: -175px;
+    z-index: 2147483647;
+}
+.page-id-675 .sub-header {
+color: white !important;
+margin-bottom: 115px;
+margin-top: -140px;
+z-index: 2147483647;
+}
+
+}
+
+
+
+
+
+
+
+/* Home Hover Effects */
+.effects {
+  padding-left: 0px;
+}
+.effects .img {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.effects .img:nth-child(n) {
+  margin-right: 0;
+}
+.effects .img:first-child {
+  margin-left: 0;
+}
+.effects .img:last-child {
+  margin-right: 0;
+}
+.effects .img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+
+a.expand {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: medium;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: medium;
+    border-top-color: -moz-use-text-color;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-style: none;
+    border-top-width: medium;
+    color: #fff !important;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    height: 100px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    z-index: 100;
+}
+/* ============================================================
+  EFFECT 6 - ICON BOUNCE IN
+============================================================ */
+#effect-6 .overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+#effect-6 .overlay a.expand {
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    font-family: "open sans";
+    font-weight: normal;
+    left: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+#effect-6 .img.hover .overlay {
+  opacity: 1;
+}
+#effect-6 .img.hover .overlay a.expand {
+  top: 50%;
+  margin-top: -30px;
+  opacity: 1;
+}

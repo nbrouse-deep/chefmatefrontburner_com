@@ -1,0 +1,101 @@
+//
+// sass mixins and variables
+$black: #1a1a1a;
+$brown: #301d14;
+$font-heading: 'yanone kaffeesatz';
+
+@mixin hidetext {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    text-shadow: none;
+}
+
+@mixin mobile-heading {
+    background: $brown;
+    color: white;
+    display: block;
+    font: 400 17px/30px 'yanone kaffeesatz', sans-serif;
+    height: 30px;
+    letter-spacing: 0px;
+    text-indent: 10px;
+    text-transform: uppercase;
+}
+
+
+//
+// base elements
+sub { font-size: 40%; }
+
+a { 
+    color: $brown;
+    text-decoration: none; 
+}
+
+p { margin: 0 0 15px 0; }
+
+h1,
+h2 {
+    font: 700 58px/1.1 $font-heading, sans-serif;
+    letter-spacing: -1px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav {
+    > ul { 
+        margin: 0; 
+        padding: 0; 
+    }
+}
+
+
+hr {
+    background: #999;
+    border: none;
+    margin: 15px 0;
+    height: 1px;
+}
+
+
+//
+// helper classes
+.container {
+    margin: 0 auto;
+    width: 930px;
+}
+
+
+.clearfix {
+    &:after {
+        content: " ";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+}
+
+
+.error { color: #f66; }
+
+.header-image {
+    border-bottom: 15px solid $brown; 
+    display: block;
+    height: 260px;
+}
+
+
+
+
+
+//
+// elements reserved for mobile devices
+.mobile-only { display: none !important; }
+
+.tablet-only { display: none; }
+
+.print-only { display: none; }
