@@ -57,7 +57,7 @@ Contact Us ›</div></a>
 	echo get_theme_mod('google_analytics','');
 	wp_footer(); 
 ?>
-
+<img src="https://s.amazon-adsystem.com/iui3?d=3p-hbg&ex-src=www.chefmatefrontburner.com&ex-hargs=v%3D1.0%3Bc%3D9940702346028%3Bp%3D07b60264-8656-d2a3-c7ce-6bc4181e8162" width=1 height=1 border=0>
 </body>
 <script src="/wp-content/themes/chefmate/style/js/custom.js"></script>
 </html>
